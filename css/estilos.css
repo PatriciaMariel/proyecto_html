@@ -1,0 +1,66 @@
+body{
+	background: blanchedalmond;
+	width: 90%;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	color: black;
+}
+nav {
+	background-color: palevioletred;
+	padding: 10px 20px;
+	border-radius: 5px;
+	word-spacing: 20px;
+}
+nav a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+nav a:hover {
+text-shadow: 0 0 8px cyan;/*sombra en el texto*/
+}
+
+#parr_1 {
+	font-size: 20px;
+	color:black ;
+}
+
+.card{
+	text-align: center;
+	border: 1px palevioletred solid;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px cyan; 0 0 5px 2px, 0 0 7px 2px black;
+}
+ 
+label {
+	
+	border-radius: 3px;
+	color: black;
+	font-size: 20px;
+}
+
+.in-text {
+	width: 200px;
+	height: 20px; 
+	padding: 0 10px;
+	font-size: 15px;
+	background: white;
+	border: none;
+	border-radius: 3px;
+}
+.btn {
+	width: 100px; /*ancho*/
+	height: 27px; /*alto*/
+	margin-top: 5px; /*espacio*/
+}
+
+.btn-sub {
+	background: palevioletred;
+}
+
+.btn-res {
+	background: palevioletred;
+}
